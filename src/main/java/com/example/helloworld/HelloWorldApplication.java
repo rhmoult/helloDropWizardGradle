@@ -28,7 +28,7 @@ public class HelloWorldApplication extends Application<HelloWorldConfiguration> 
             configuration.getTemplate(),
             configuration.getDefaultName()
         );
-    environment.jersey().register(resource);
-}
+        environment.jersey().register(resource);
+    }
 
 }
